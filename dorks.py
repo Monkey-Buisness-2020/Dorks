@@ -116,3 +116,5 @@ if args.key:
     program(args.key)
 if args.browser:
     open_links(args.key)
+else:
+    print("\nTry 'python3 dorks.py -k [keyword]'\n")
